@@ -1,5 +1,9 @@
 # Detect if a string is a data URL
 
+[![Build Status](https://travis-ci.org/killmenot/valid-data-url.svg?branch=master)](https://travis-ci.org/killmenot/valid-data-url)
+[![Dependency Status](https://gemnasium.com/badges/github.com/killmenot/valid-data-url.svg)](https://gemnasium.com/github.com/killmenot/valid-data-url)
+[![npm version](https://badge.fury.io/js/valid-data-url.svg)](https://badge.fury.io/js/valid-data-url)
+
 Based on [Brian Grinstead](https://github.com/bgrins)'s solution https://gist.github.com/bgrins/6194623
 
 
@@ -38,7 +42,7 @@ var validDataUrl = require('valid-data-url');
 
 ## People
 
-The original author is Brian Grinstead[https://github.com/bgrins]
+The original author is [Brian Grinstead](https://github.com/bgrins)
 
 
 ## Contributors
