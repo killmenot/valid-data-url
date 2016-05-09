@@ -37,6 +37,7 @@ npm install valid-data-url
 'use strict';
 
 var validDataUrl = require('valid-data-url');
+var isValid = validDataUrl('data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D'); // true
 
 ```
 
