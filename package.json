@@ -11,9 +11,14 @@
     "url": "git@github.com:killmenot/valid-data-url.git"
   },
   "keywords": [
-    "nodemailer",
-    "postmark",
-    "transport"
+    "valid",
+    "data-uri",
+    "data-url",
+    "data",
+    "uri",
+    "url",
+    "datauri",
+    "dataurl"
   ],
   "author": {
     "name": "Alexey Kucherenko",
