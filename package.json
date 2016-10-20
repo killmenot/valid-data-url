@@ -1,6 +1,6 @@
 {
   "name": "valid-data-url",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Detect if a string is a data URL",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "chai": "^3.5.0",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
-    "load-grunt-tasks": "^3.5.0",
-    "mocha": "^2.4.5"
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.1.2"
   }
 }

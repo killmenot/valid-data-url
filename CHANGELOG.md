@@ -1,7 +1,11 @@
 
+<a name="0.1.2"></a>
+### 0.1.2 (2016-10-21)
+
+* bump deps
+
 <a name="0.1.1"></a>
 ### 0.1.1 (2016-05-09)
-
 
 * remove trailing spaces in data part
 
