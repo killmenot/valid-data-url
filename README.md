@@ -50,7 +50,8 @@ The original author is [Brian Grinstead](https://github.com/bgrins)
 
  - [Gary Guagliardo Jr](https://github.com/guag)
  - [Steve Powell](https://github.com/steve-p-com)
- - [Rob G](https://github.com/Mottie)
+ - [Rob Garrison](https://github.com/Mottie)
+ - [Frank Tan](https://github.com/tansongyang)
 
 
 ## Licence

@@ -1,6 +1,6 @@
 {
   "name": "valid-data-url",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Detect if a string is a data URL",
   "main": "index.js",
   "scripts": {

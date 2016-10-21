@@ -18,8 +18,10 @@ var valid = [
   'data:,A%20brief%20note',
   'data:text/html;charset=US-ASCII,%3Ch1%3EHello!%3C%2Fh1%3E',
   'data:audio/mp3;base64,%3Ch1%3EHello!%3C%2Fh1%3E',
-  'data:video/x-ms-wmv;base64,%3Ch1%3EHello!%3C%2Fh1%3E'
+  'data:video/x-ms-wmv;base64,%3Ch1%3EHello!%3C%2Fh1%3E',
+  'data:application/vnd.ms-excel;base64,PGh0bWw%2BPC9odG1sPg%3D%3D'
 ];
+
 var invalid = [
   'dataxbase64',
   'data:HelloWorld',
