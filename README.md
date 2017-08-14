@@ -1,6 +1,7 @@
 # Detect if a string is a data URL
 
 [![Build Status](https://travis-ci.org/killmenot/valid-data-url.svg?branch=master)](https://travis-ci.org/killmenot/valid-data-url)
+[![Coverage Status](https://coveralls.io/repos/github/killmenot/valid-data-url/badge.svg?branch=master)](https://coveralls.io/github/killmenot/valid-data-url?branch=master)
 [![Dependency Status](https://gemnasium.com/badges/github.com/killmenot/valid-data-url.svg)](https://gemnasium.com/github.com/killmenot/valid-data-url)
 [![npm version](https://badge.fury.io/js/valid-data-url.svg)](https://badge.fury.io/js/valid-data-url)
 
