@@ -4,6 +4,7 @@ branches:
   except:
   - gh-pages
 node_js:
+  - '9'
   - '8'
   - '7'
   - '6'
