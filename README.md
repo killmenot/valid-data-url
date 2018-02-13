@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/killmenot/valid-data-url.svg?branch=master)](https://travis-ci.org/killmenot/valid-data-url) [![Coverage Status](https://coveralls.io/repos/github/killmenot/valid-data-url/badge.svg?branch=master)](https://coveralls.io/github/killmenot/valid-data-url?branch=master) [![Dependency Status](https://gemnasium.com/badges/github.com/killmenot/valid-data-url.svg)](https://gemnasium.com/github.com/killmenot/valid-data-url) [![npm version](https://badge.fury.io/js/valid-data-url.svg)](https://badge.fury.io/js/valid-data-url) [![npm](https://img.shields.io/npm/dm/valid-data-url.svg)](https://www.npmjs.com/package/valid-data-url)
 
-Based on [Brian Grinstead](https://github.com/bgrins)'s solution https://gist.github.com/bgrins/6194623
+Based on [Brian Grinstead](https://github.com/bgrins)'s solution https://gist.github.com/bgrins/6194623. Special thanks to [Jamie Davis](https://github.com/davisjam) for helping to fix [ReDoS](https://www.regular-expressions.info/redos.html) exploit.
 
 
 ## Syntax
@@ -50,6 +50,7 @@ The original author is [Brian Grinstead](https://github.com/bgrins)
  - [Steve Powell](https://github.com/steve-p-com)
  - [Rob Garrison](https://github.com/Mottie)
  - [Frank Tan](https://github.com/tansongyang)
+ - [Jamie Davis](https://github.com/davisjam)
 
 
 ## Licence

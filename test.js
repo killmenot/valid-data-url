@@ -41,13 +41,17 @@ describe('module', function () {
 
   it('valid', function () {
     valid.forEach(function (value) {
-      expect(validDataUrl(value)).to.be.true;
+      expect(validDataUrl(value), value).to.be.true;
     });
   });
 
   it('invalid', function () {
     invalid.forEach(function (value) {
-      expect(validDataUrl(value)).to.be.false;
+      expect(validDataUrl(value), value).to.be.false;
     });
+  });
+
+  it('undefined', function () {
+    expect(validDataUrl()).to.be.false;
   });
 });
