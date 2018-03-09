@@ -1,7 +1,14 @@
+<a name="0.1.6"></a>
+### 0.1.6 (2018-03-09)
+
+* fix issue related with support multiple mediatype's parameters
+
+
 <a name="0.1.5"></a>
 ### 0.1.5 (2018-02-14)
 
 * fix ReDoS exploit, bump deps
+
 
 <a name="0.1.4"></a>
 ### 0.1.4 (2017-08-15)
