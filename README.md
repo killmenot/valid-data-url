@@ -1,6 +1,6 @@
 # Detect if a string is a data URL
 
-[![Build Status](https://travis-ci.org/killmenot/valid-data-url.svg?branch=master)](https://travis-ci.org/killmenot/valid-data-url) [![Coverage Status](https://coveralls.io/repos/github/killmenot/valid-data-url/badge.svg?branch=master)](https://coveralls.io/github/killmenot/valid-data-url?branch=master) [![Dependency Status](https://gemnasium.com/badges/github.com/killmenot/valid-data-url.svg)](https://gemnasium.com/github.com/killmenot/valid-data-url) [![npm version](https://badge.fury.io/js/valid-data-url.svg)](https://badge.fury.io/js/valid-data-url) [![npm](https://img.shields.io/npm/dm/valid-data-url.svg)](https://www.npmjs.com/package/valid-data-url)
+[![Build Status](https://travis-ci.org/killmenot/valid-data-url.svg?branch=master)](https://travis-ci.org/killmenot/valid-data-url) [![Coverage Status](https://coveralls.io/repos/github/killmenot/valid-data-url/badge.svg?branch=master)](https://coveralls.io/github/killmenot/valid-data-url?branch=master) [![Dependency Status](https://david-dm.org/killmenot/valid-data-url.svg)](https://david-dm.org/killmenot/valid-data-url.svg) [![npm version](https://badge.fury.io/js/valid-data-url.svg)](https://badge.fury.io/js/valid-data-url) [![npm](https://img.shields.io/npm/dm/valid-data-url.svg)](https://www.npmjs.com/package/valid-data-url)
 
 Based on [Brian Grinstead](https://github.com/bgrins)'s solution https://gist.github.com/bgrins/6194623. Special thanks to [Jamie Davis](https://github.com/davisjam) for helping to fix [ReDoS](https://www.regular-expressions.info/redos.html) exploit.
 
@@ -57,22 +57,20 @@ The original author is [Brian Grinstead](https://github.com/bgrins)
 
 The MIT License (MIT)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.

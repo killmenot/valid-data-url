@@ -3,19 +3,21 @@
   "version": "0.1.6",
   "description": "Detect if a string is a data URL",
   "main": "index.js",
-  "scripts": {
-    "lint": "grunt",
-    "test": "mocha",
-    "coverage": "istanbul cover _mocha",
-    "coveralls": "npm run coverage && coveralls < coverage/lcov.info"
+  "engines": {
+    "node": ">=4"
   },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
+  "license": "MIT",
+  "author": {
+    "name": "Alexey Kucherenko",
+    "url": "https://github.com/killmenot"
+  },
+  "homepage": "https://github.com/killmenot/valid-data-url",
   "repository": {
     "type": "git",
     "url": "git@github.com:killmenot/valid-data-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killmenot/valid-data-url/issues"
   },
   "keywords": [
     "valid",
@@ -27,23 +29,30 @@
     "datauri",
     "dataurl"
   ],
-  "author": {
-    "name": "Alexey Kucherenko",
-    "url": "https://github.com/killmenot"
+  "scripts": {
+    "lint": "jshint index.js test.js",
+    "test": "mocha",
+    "coverage": "nyc --reporter=html --reporter=text mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/killmenot/valid-data-url/issues"
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "nyc": {
+    "all": true,
+    "include": [
+      "index.js"
+    ],
+    "exclude": [
+      "test.js"
+    ]
   },
-  "homepage": "https://github.com/killmenot/valid-data-url",
   "devDependencies": {
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "istanbul": "^0.4.5",
-    "load-grunt-tasks": "^3.5.2",
-    "mocha": "^3.5.3",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
     "pre-commit": "^1.2.2"
   }
 }

@@ -1,11 +1,8 @@
-/* globals describe, it */
-/* jshint expr:true */
-
 'use strict';
 
-var validDataUrl = require('./');
-var expect = require('chai').expect;
-var valid = [
+const validDataUrl = require('./');
+const expect = require('chai').expect;
+const valid = [
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEUAAAD///+l2Z/dAAAAM0lEQVR4nGP4/5/h/1+G/58ZDrAz3D/McH8yw83NDDeNGe4Ug9C9zwz3gVLMDA/A6P9/AFGGFyjOXZtQAAAAAElFTkSuQmCC',
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAFVBMVEXk5OTn5+ft7e319fX29vb5+fn///++GUmVAAAALUlEQVQIHWNICnYLZnALTgpmMGYIFWYIZTA2ZFAzTTFlSDFVMwVyQhmAwsYMAKDaBy0axX/iAAAAAElFTkSuQmCC',
   '   data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAFVBMVEXk5OTn5+ft7e319fX29vb5+fn///++GUmVAAAALUlEQVQIHWNICnYLZnALTgpmMGYIFWYIZTA2ZFAzTTFlSDFVMwVyQhmAwsYMAKDaBy0axX/iAAAAAElFTkSuQmCC   ',
@@ -24,7 +21,7 @@ var valid = [
   'data:application/vnd.ms-excel;base64,PGh0bWw%2BPC9odG1sPg%3D%3D'
 ];
 
-var invalid = [
+const invalid = [
   'dataxbase64',
   'data:HelloWorld',
   'data:text/html;charset=,%3Ch1%3EHello!%3C%2Fh1%3E',
@@ -37,24 +34,24 @@ var invalid = [
   'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEUAAAD///+l2Z/dAAAAM0lEQVR4nGP4/5/h/1+G/58ZDrAz3D/McH8yw83NDDeNGe4Ug9C9zwz3gVLMDA/A6P9/AFGGFyjOXZtQAAAAAElFTkSuQmCC'
 ];
 
-describe('valid-data-url', function () {
-  it('should be a function', function () {
-    expect(validDataUrl).to.be.a('function');
+describe('valid-data-url', () => {
+  it('should be a function', () => {
+    expect(validDataUrl).be.a('function');
   });
 
-  it('valid', function () {
-    valid.forEach(function (value) {
-      expect(validDataUrl(value), value).to.be.true;
+  it('valid', () => {
+    valid.forEach((value) => {
+      expect(validDataUrl(value), value).equal(true);
     });
   });
 
-  it('invalid', function () {
-    invalid.forEach(function (value) {
-      expect(validDataUrl(value), value).to.be.false;
+  it('invalid', () => {
+    invalid.forEach((value) => {
+      expect(validDataUrl(value), value).equal(false);
     });
   });
 
-  it('undefined', function () {
-    expect(validDataUrl()).to.be.false;
+  it('undefined', () => {
+    expect(validDataUrl()).equal(false);
   });
 });
