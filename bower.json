@@ -1,6 +1,6 @@
 {
   "name": "valid-data-url",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Detect if a string is a data URL",
   "main": "index.js",
   "authors": [
@@ -26,7 +26,6 @@
     "*.sublime-project",
     "*.sublime-workspace",
     "node_modules",
-    "Gruntfile.js",
     "test.js"
   ]
 }
