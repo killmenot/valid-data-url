@@ -4,7 +4,7 @@
   "description": "Detect if a string is a data URL",
   "main": "index.js",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "license": "MIT",
   "author": {
