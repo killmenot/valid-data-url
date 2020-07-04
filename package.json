@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Detect if a string is a data URL",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=8"
   },
