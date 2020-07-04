@@ -1,5 +1,13 @@
 # CHANGELOG
 
+<a name="3.0.0"></a>
+### 3.0.0 (2019-07-04)
+
+* drops support for Node less than 10.
+* reduce package's size (Thanks to @TrySound)
+* bump deps
+
+
 <a name="2.0.0"></a>
 ### 2.0.0 (2019-05-22)
 
