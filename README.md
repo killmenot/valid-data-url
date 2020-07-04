@@ -51,6 +51,7 @@ The original author is [Brian Grinstead](https://github.com/bgrins)
  - [Rob Garrison](https://github.com/Mottie)
  - [Frank Tan](https://github.com/tansongyang)
  - [Jamie Davis](https://github.com/davisjam)
+ - [Bogdan Chadkin](https://github.com/TrySound)
 
 
 ## Licence
