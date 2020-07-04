@@ -3,6 +3,7 @@ branches:
   except:
   - gh-pages
 node_js:
+  - '14'
   - '13'
   - '12'
   - '11'
