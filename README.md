@@ -52,6 +52,7 @@ The original author is [Brian Grinstead](https://github.com/bgrins)
  - [Frank Tan](https://github.com/tansongyang)
  - [Jamie Davis](https://github.com/davisjam)
  - [Bogdan Chadkin](https://github.com/TrySound)
+ - [Jon Ursenbach](https://github.com/erunion)
 
 
 ## Licence
