@@ -1,5 +1,11 @@
 # CHANGELOG
 
+<a name="3.0.1"></a>
+### 3.0.1 (2019-09-04)
+
+* fix: allowing attribute values to have parentheses (Thanks to @erunion)
+
+
 <a name="3.0.0"></a>
 ### 3.0.0 (2019-07-04)
 
