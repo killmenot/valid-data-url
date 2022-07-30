@@ -20,6 +20,7 @@ const valid = [
   'data:video/x-ms-wmv;base64,%3Ch1%3EHello!%3C%2Fh1%3E',
   'data:application/vnd.ms-excel;base64,PGh0bWw%2BPC9odG1sPg%3D%3D',
   'data:image/svg+xml;name=foobar%20(1).svg;charset=UTF-8,some-data',
+  'data:image/svg+xml;name=lorem_ipsum.txt;charset=UTF-8,some-data',
   'data:text/html,<script>alert(\'hi\');</script>'
 ];
 
