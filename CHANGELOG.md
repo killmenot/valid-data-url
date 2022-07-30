@@ -1,5 +1,12 @@
 # CHANGELOG
 
+<a name="4.0.1"></a>
+### 4.0.1 (2022-07-30)
+
+* fix: allowing underscores to be present in attribute values
+* bump deps
+
+
 <a name="4.0.0"></a>
 ### 4.0.0 (2021-05-03)
 
