@@ -22,7 +22,9 @@ jobs:
       - run: npm install
       - run: npm run lint
       - run: npm test
-      - run: npm coveralls
+      - run: npm run coveralls
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
