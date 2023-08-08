@@ -1,5 +1,14 @@
 # CHANGELOG
 
+<a name="5.0.0"></a>
+### 5.0.0 (2023-08-08)
+
+* build: move from Travis CI to GitHub Actions
+* docs: update badges
+* chore: bump deps
+* drops support for Node less than 14
+
+
 <a name="4.0.1"></a>
 ### 4.0.1 (2022-07-30)
 
