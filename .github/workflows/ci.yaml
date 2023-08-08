@@ -23,6 +23,13 @@ jobs:
       - run: npm run lint
       - run: npm test
 
+  coverage:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Coveralls
+        run: 'echo "Extracted environment name: $NODE_ENV"'
+
       # - name: Coveralls
       #   uses: coverallsapp/github-action@v2
       #   with:
