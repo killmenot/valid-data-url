@@ -27,10 +27,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
     steps:
-      - name: Coveralls
-        run: 'echo "Extracted environment name: $NODE_ENV"'
+      - uses: actions/checkout@v3
 
-      # - name: Coveralls
-      #   uses: coverallsapp/github-action@v2
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+      - run: npm install
+      - run: npm run lint
+      - run: npm coverage
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@v2
