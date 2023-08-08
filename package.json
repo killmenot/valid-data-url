@@ -35,8 +35,8 @@
   "scripts": {
     "lint": "jshint index.js test.js",
     "test": "mocha",
-    "coverage": "nyc --reporter=html --reporter=text mocha",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test-coverage": "nyc --reporter=html --reporter=text mocha",
+    "test-coveralls": "nyc report --reporter=text-lcov > ./coverage/lcov.info",
     "prepare": "husky install"
   },
   "nyc": {
